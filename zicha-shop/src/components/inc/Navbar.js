@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     <div className="navbar-dark bg-dark shadow"> 
@@ -33,21 +34,17 @@ function Navbar() {
                         Home
                       </Link>
                     </li>
-                    <li className="nav-item">
-                      <Link to="/about" className="nav-link active">
-                        About US
-                      </Link>
-                    </li>
-                    <li className="nav-item">
-                      <Link to="/contact" className="nav-link active">
-                        Contact US
-                      </Link>
+                    <li className="nav-item dropdown">
+                      <a className="nav-link dropdown-toggle" href="/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul className="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                        <li><a className="dropdown-item" href="/">Action</a></li>
+                        <li><a className="dropdown-item" href="/">Another action</a></li>
+                        <li><a className="dropdown-item" href="/">Something else here</a></li>
+                      </ul>
                     </li>
                   </ul>
-                  {/* <form className="d-flex">
-              <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button className="btn btn-outline-success" type="submit">Search</button>
-            </form> */}
                 </div>
               </div>
             </nav>

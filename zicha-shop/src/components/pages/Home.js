@@ -34,44 +34,56 @@ function Home() {
               <div className="underline mx-auto"></div>
             </div>
             <div className="col-md-4">
-              <div className="card shadow ">
-                 <img src={produit} className="w-100 border-bottom" alt="produit"/>
-              <div className="card-body ">
-              <h6> Produit </h6>
-              <div className="underline"></div>
-               <p>
-              Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.  
-              </p>
-              <Link to="/produits" className="btn btn-link"> read more </Link>
+            <div className="card shadow" >
+                <img src={produit} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  <h6 className="card-title">Card title</h6>
+                  <div className="underline"></div>
+                </div>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">Prix:45DT</li>
+                  <li className="list-group-item">Taille:S,M,L,XL</li>
+                  <li className="list-group-item">Disponible</li>
+                </ul>
+                <div className="card-body">
+                  <Link to="/produits" className="card-link"> See More </Link>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div className="card shadow ">
-                 <img src={produit} className="w-100 border-bottom" alt="produit"/>
-               <div className="card-body">
-               <h6> Produit </h6>
-              <div className="underline"></div>
-               <p>
-              Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.  
-              </p>
-              <Link to="/produits" className="btn btn-link"> read more </Link>
+            <div className="card shadow" >
+                <img src={produit} className="card-img-top" alt="..."/>
+                <div className="card-body">
+                  <h6 className="card-title">Card title</h6>
+                  <div className="underline"></div>
                 </div>
-             </div>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">Prix:45DT</li>
+                  <li className="list-group-item">Taille:S,M,L,XL</li>
+                  <li className="list-group-item">Disponible</li>
+                </ul>
+                <div className="card-body">
+                  <Link to="/produits" className="card-link"> See More </Link>
+                </div>
+              </div>
              
             </div>
             <div className="col-md-4">
-              <div className="card shadow ">
-                 <img src={produit} className="w-100 border-bottom" alt="produit" />
+            <div className="card shadow" >
+                <img src={produit} className="card-img-top" alt="..."/>
                 <div className="card-body">
-                <h6> Produit </h6>
-              <div className="underline"></div>
-               <p>
-              Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500.  
-              </p>
-              <Link to="/produits" className="btn btn-link"> read more </Link>
+                  <h6 className="card-title">Card title</h6>
+                  <div className="underline"></div>
                 </div>
-             </div>
+                <ul className="list-group list-group-flush">
+                  <li className="list-group-item">Prix:45DT</li>
+                  <li className="list-group-item">Taille:S,M,L,XL</li>
+                  <li className="list-group-item">Disponible</li>
+                </ul>
+                <div className="card-body">
+                  <Link to="/produits" className="card-link"> See More </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -1,5 +1,7 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
+import { SocialIcon } from 'react-social-icons';
+
 
 function Footer() {
     return (
@@ -21,8 +23,9 @@ function Footer() {
                        <hr/>
                         <div><Link to="/">Home</Link></div>
                         <div><Link to="/about">About</Link></div>
-                        <div><Link to="/contact">Contact</Link></div>
-                        <div><Link to="/blog">Blog</Link></div>
+                        <div><SocialIcon url="https://www.instagram.com/naz_collection_2k20/" />
+                        <SocialIcon url="https://www.facebook.com/naz2k20" />
+                        </div>
                    </div>
                    <div className="col-md-4">
                        <h6>Contact Informations</h6>
